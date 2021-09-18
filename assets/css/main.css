@@ -3780,29 +3780,42 @@ input, select, textarea {
 		display: flex;
 		flex-direction: row;
 		padding: 0;
+		position: relative;
 	}
+
+	.columnLine {
+		border-radius: 30px;
+		position: absolute;
+		top: 10px;
+		bottom: 30px;
+		width: 5px;
+		left: 8%;
+		background-image: linear-gradient(#935d8c, #ffffff);
+	}
+
+
 	.timeline {
 		flex: 1;
-		width: 20%;
 	}
 
 	.schoolInfo {
-		flex: 4;
+		flex: 10;
 		display: flex;
 		flex-direction: column;
 		padding-left: 10%;
 	}
 
-	.columnLine {
+	/* .columnLine {
 		height: 100%;
 		border-right: 5px solid #935d8c;
-	}
+	} */
 
 	.school {
 		display: flex;
 		flex-direction: column;
 		margin-bottom: 40px;
 		width: 100%;
+		text-align: left;
 	}
 
 	.schoolTY {
@@ -3812,12 +3825,25 @@ input, select, textarea {
 		justify-content: space-between;
 	}
 
-	.uniName h2,h3{
+	.uniName h2, h3, h4{
 		margin: 0;
+	}
+
+	.uniName h4 {
+		text-decoration: underline;
 	}
 	.graYear {
 		float: right;
 	}
 	.graYear p {
 		margin: 0;
+	}
+	
+	.classContent {
+		margin-top: 20px;
+	}
+
+	.classContent ul,li {
+		padding-left: 0;
+		text-indent: 0;
 	}
