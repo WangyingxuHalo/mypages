@@ -2616,6 +2616,7 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
+		margin-top: 20px;
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -3693,9 +3694,9 @@ input, select, textarea {
 
 		#footer .copyright {
 			width: 100%;
-			margin: 2.5em 0 2em 0;
+			margin: 1em 0 2em 0;
 			font-size: 0.8em;
-			text-align: center;
+			text-align: center !important;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3846,4 +3847,35 @@ input, select, textarea {
 	.classContent ul,li {
 		padding-left: 0;
 		text-indent: 0;
+	}
+
+	.contactInfo h2{
+		display: inline-block;
+		margin-left: 0!important;
+	}
+
+	.contactInfo {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100% !important;
+		margin-left: 0 !important;
+		margin-bottom: 0 !important;
+	}
+
+	.contactInfo p{
+		margin-bottom: 10px;
+	}
+
+	.contactInfo b {
+		margin-right: 10px;
+	}
+	.contact {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contact p {
+		display: inline-block;
+		text-align: left;
 	}
