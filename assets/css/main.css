@@ -3879,3 +3879,9 @@ input, select, textarea {
 		display: inline-block;
 		text-align: left;
 	}
+
+	.features .logo img{
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+	}
